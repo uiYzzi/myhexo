@@ -4,9 +4,55 @@
   
     
     <entry>
+      <title>『love』我们的一周年</title>
+      <link href="2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/"/>
+      <url>2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 恋爱记录 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git记住用户名密码</title>
+      <link href="2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/"/>
+      <url>2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<p>hexo部署时用户名密码问题：</p><p>记住用户名密码，不用每次都输入用户名密码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure><p>清除用户名密码，防止用户名密码输入错误</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --system --unset credential.helper</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 理论积累 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>QT DTK代码片段</title>
-      <link href="2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
-      <url>2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</url>
+      <link href="2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
+      <url>2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</url>
       
         <content type="html"><![CDATA[<h2 id="标题栏："><a class="header-anchor" href="#标题栏："></a>标题栏：</h2><h4 id="1、标题栏着色"><a class="header-anchor" href="#1、标题栏着色"></a>1、标题栏着色</h4><p><img src="https://cdn.nlark.com/yuque/0/2021/png/1375403/1612266152632-5ce73305-9952-42cb-b232-f8e89ed076fb.png#align=left&amp;display=inline&amp;height=500&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=500&amp;originWidth=632&amp;size=14463&amp;status=done&amp;style=none&amp;width=632" alt="image.png"></p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">titlebar</span>()-&gt;<span class="built_in">setAttribute</span>(Qt::WA_StyledBackground,<span class="literal">true</span>);</span><br><span class="line"><span class="built_in">titlebar</span>()-&gt;<span class="built_in">setStyleSheet</span>(<span class="string">&quot;background-color: rgb(97,172,133)&quot;</span>);</span><br></pre></td></tr></table></figure><h4 id="2、隐藏标题栏下面分隔线"><a class="header-anchor" href="#2、隐藏标题栏下面分隔线"></a>2、隐藏标题栏下面分隔线</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">titlebar</span>()-&gt;<span class="built_in">setSeparatorVisible</span>(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure><h4 id="3、标题栏透明"><a class="header-anchor" href="#3、标题栏透明"></a>3、标题栏透明</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">titlebar-&gt;<span class="built_in">setBackgroundTransparent</span>(<span class="literal">true</span>);</span><br></pre></td></tr></table></figure><h4 id="4、标题栏相关文档"><a class="header-anchor" href="#4、标题栏相关文档"></a>4、标题栏相关文档</h4><p><a href="https://linuxdeepin.github.io/dtk/class_dtk_1_1_widget_1_1_d_titlebar.html">官方文档</a></p><h4 id="1、判断系统主题是浅色还是暗色"><a class="header-anchor" href="#1、判断系统主题是浅色还是暗色"></a>1、判断系统主题是浅色还是暗色</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">DGuiApplicationHelper *guiAppHelp = DGuiApplicationHelper::<span class="built_in">instance</span>();</span><br><span class="line"><span class="keyword">if</span> (guiAppHelp-&gt;<span class="built_in">themeType</span>() == DGuiApplicationHelper::ColorType::DarkType) &#123;  <span class="comment">//暗色主题</span></span><br><span class="line"></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;  <span class="comment">//浅色主题</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="2、QT控件阴影效果"><a class="header-anchor" href="#2、QT控件阴影效果"></a>2、QT控件阴影效果</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">setWindowFlags</span>(Qt::FramelessWindowHint);</span><br><span class="line">QGraphicsDropShadowEffect *effect = <span class="keyword">new</span> QGraphicsDropShadowEffect;</span><br><span class="line">effect-&gt;<span class="built_in">setBlurRadius</span>(<span class="number">8</span>);        <span class="comment">// 阴影圆角的大小</span></span><br><span class="line">effect-&gt;<span class="built_in">setColor</span>(Qt::gray);      <span class="comment">//阴影的颜色</span></span><br><span class="line">effect-&gt;<span class="built_in">setOffset</span>(<span class="number">5</span>,<span class="number">5</span>);          <span class="comment">//阴影的偏移量</span></span><br><span class="line">ui-&gt;centralWidget-&gt;<span class="built_in">setGraphicsEffect</span>(effect); <span class="comment">//给那个控件设置阴影，这里需要注意的是所有此控件的子控件，也都继承这个阴影。</span></span><br></pre></td></tr></table></figure>]]></content>
       

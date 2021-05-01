@@ -9,7 +9,7 @@
     <meta name="description" content="标题栏： 1、标题栏着色  12titlebar()-&gt;setAttribute(Qt::WA_StyledBackground,true);titlebar()-&gt;setStyleSheet(&quot;background-color: rgb(97,172,133)&quot;); 2、隐藏标题栏下面分隔线 1titlebar()-&gt;setSeparatorVisible(">
 <meta property="og:type" content="article">
 <meta property="og:title" content="QT DTK代码片段">
-<meta property="og:url" content="https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/index.html">
+<meta property="og:url" content="https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/index.html">
 <meta property="og:site_name" content="柚子">
 <meta property="og:description" content="标题栏： 1、标题栏着色  12titlebar()-&gt;setAttribute(Qt::WA_StyledBackground,true);titlebar()-&gt;setStyleSheet(&quot;background-color: rgb(97,172,133)&quot;); 2、隐藏标题栏下面分隔线 1titlebar()-&gt;setSeparatorVisible(">
 <meta property="og:locale" content="zh_CN">
@@ -67,11 +67,13 @@
          
           <li><a href="/">首页</a></li>
          
-          <li><a href="/about/">关于</a></li>
+          <li><a href="/classification/">分类</a></li>
          
           <li><a href="/archives/">归档</a></li>
          
           <li><a href="/tags/">标签</a></li>
+         
+          <li><a href="/links/">友链</a></li>
          
           <li><a href="/search/">搜索</a></li>
          
@@ -82,6 +84,8 @@
     <br/>
     <span id="actions">
       <ul>
+        
+        <li><a class="icon" aria-label="上一篇 " href="/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" aria-label="返回顶部 " href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
@@ -95,17 +99,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&text=QT DTK代码片段"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&is_video=false&description=QT DTK代码片段"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=QT DTK代码片段&body=Check out this article: https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&name=QT DTK代码片段&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&t=QT DTK代码片段"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&text=QT DTK代码片段"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&is_video=false&description=QT DTK代码片段"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=QT DTK代码片段&body=Check out this article: https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&name=QT DTK代码片段&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&t=QT DTK代码片段"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -187,11 +191,13 @@
          
           <li><a href="/">首页</a></li>
          
-          <li><a href="/about/">关于</a></li>
+          <li><a href="/classification/">分类</a></li>
          
           <li><a href="/archives/">归档</a></li>
          
           <li><a href="/tags/">标签</a></li>
+         
+          <li><a href="/links/">友链</a></li>
          
           <li><a href="/search/">搜索</a></li>
          
@@ -206,17 +212,17 @@
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&text=QT DTK代码片段"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&is_video=false&description=QT DTK代码片段"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=QT DTK代码片段&body=Check out this article: https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&name=QT DTK代码片段&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&t=QT DTK代码片段"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&text=QT DTK代码片段"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&is_video=false&description=QT DTK代码片段"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=QT DTK代码片段&body=Check out this article: https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&title=QT DTK代码片段"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&name=QT DTK代码片段&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/&t=QT DTK代码片段"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -246,11 +252,13 @@
          
           <li><a href="/">首页</a></li>
          
-          <li><a href="/about/">关于</a></li>
+          <li><a href="/classification/">分类</a></li>
          
           <li><a href="/archives/">归档</a></li>
          
           <li><a href="/tags/">标签</a></li>
+         
+          <li><a href="/links/">友链</a></li>
          
           <li><a href="/search/">搜索</a></li>
          

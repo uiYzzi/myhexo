@@ -6,7 +6,7 @@
   <link href="https://yzzi.icu/atom.xml" rel="self"/>
   
   <link href="https://yzzi.icu/"/>
-  <updated>2021-05-01T05:23:11.879Z</updated>
+  <updated>2021-05-01T06:30:05.813Z</updated>
   <id>https://yzzi.icu/</id>
   
   <author>
@@ -17,9 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>『love』我们的一周年</title>
+    <link href="https://yzzi.icu/2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/"/>
+    <id>https://yzzi.icu/2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/</id>
+    <published>2021-05-01T06:21:39.000Z</published>
+    <updated>2021-05-01T06:30:05.813Z</updated>
+    
+    
+    
+    
+    <category term="恋爱记录" scheme="https://yzzi.icu/categories/%E6%81%8B%E7%88%B1%E8%AE%B0%E5%BD%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git记住用户名密码</title>
+    <link href="https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/"/>
+    <id>https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/</id>
+    <published>2021-05-01T06:07:26.000Z</published>
+    <updated>2021-05-01T06:09:10.818Z</updated>
+    
+    <content type="html"><![CDATA[<p>hexo部署时用户名密码问题：</p><p>记住用户名密码，不用每次都输入用户名密码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure><p>清除用户名密码，防止用户名密码输入错误</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --system --unset credential.helper</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;hexo部署时用户名密码问题：&lt;/p&gt;
+&lt;p&gt;记住用户名密码，不用每次都输入用户名密码&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/</summary>
+      
+    
+    
+    
+    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
+    
+    
+    <category term="hexo" scheme="https://yzzi.icu/tags/hexo/"/>
+    
+    <category term="linux" scheme="https://yzzi.icu/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>QT DTK代码片段</title>
-    <link href="https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
-    <id>https://yzzi.icu/2021/05/01/QT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</id>
+    <link href="https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
+    <id>https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</id>
     <published>2021-05-01T04:48:43.000Z</published>
     <updated>2021-05-01T05:23:11.879Z</updated>
     
