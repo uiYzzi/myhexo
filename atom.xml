@@ -6,7 +6,7 @@
   <link href="https://yzzi.icu/atom.xml" rel="self"/>
   
   <link href="https://yzzi.icu/"/>
-  <updated>2021-05-01T07:13:13.832Z</updated>
+  <updated>2021-05-02T10:10:12.833Z</updated>
   <id>https://yzzi.icu/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Qt widget关闭时自动释放内存</title>
+    <link href="https://yzzi.icu/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt%20widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/"/>
+    <id>https://yzzi.icu/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt%20widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/</id>
+    <published>2021-05-02T10:08:43.000Z</published>
+    <updated>2021-05-02T10:10:12.833Z</updated>
+    
+    <content type="html"><![CDATA[<p>给widget设置Qt::WA_DeleteOnClose的属性就好啦</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Widget-&gt;<span class="built_in">setAttribute</span>(Qt::WA_DeleteOnClose);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;给widget设置Qt::WA_DeleteOnClose的属性就好啦&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
+    
+    
+    <category term="qt" scheme="https://yzzi.icu/tags/qt/"/>
+    
+  </entry>
   
   <entry>
     <title>『love』我们的一周年</title>

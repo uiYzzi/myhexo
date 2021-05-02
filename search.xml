@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Qt widget关闭时自动释放内存</title>
+      <link href="2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt%20widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/"/>
+      <url>2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt%20widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/</url>
+      
+        <content type="html"><![CDATA[<p>给widget设置Qt::WA_DeleteOnClose的属性就好啦</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Widget-&gt;<span class="built_in">setAttribute</span>(Qt::WA_DeleteOnClose);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 理论积累 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> qt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>『love』我们的一周年</title>
       <link href="2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/"/>
       <url>2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/</url>
