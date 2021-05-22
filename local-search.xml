@@ -1,121 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>柚子</title>
-  <icon>https://www.gravatar.com/avatar/912e82737b4a4cbf97e7625012e693f3</icon>
+<search>
   
-  <link href="https://yzzi.icu/atom.xml" rel="self"/>
   
-  <link href="https://yzzi.icu/"/>
-  <updated>2021-05-02T10:10:12.000Z</updated>
-  <id>https://yzzi.icu/</id>
-  
-  <author>
-    <name>yzzi</name>
-    <email>xx@example.com</email>
-  </author>
-  
-  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Qt widget关闭时自动释放内存</title>
-    <link href="https://yzzi.icu/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt-widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/"/>
-    <id>https://yzzi.icu/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt-widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/</id>
-    <published>2021-05-02T10:08:43.000Z</published>
-    <updated>2021-05-02T10:10:12.000Z</updated>
+    <link href="/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt-widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/"/>
+    <url>/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt-widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/</url>
     
     <content type="html"><![CDATA[<p>给widget设置Qt::WA_DeleteOnClose的属性就好啦</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Widget-&gt;<span class="built_in">setAttribute</span>(Qt::WA_DeleteOnClose);</span><br></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
       
+      <category>理论积累</category>
       
-    <summary type="html">&lt;p&gt;给widget设置Qt::WA_DeleteOnClose的属性就好啦&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;</summary>
+    </categories>
+    
+    
+    <tags>
       
-    
-    
-    
-    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
-    
-    
-    <category term="qt" scheme="https://yzzi.icu/tags/qt/"/>
+      <tag>qt</tag>
+      
+    </tags>
     
   </entry>
   
+  
+  
   <entry>
     <title>『love』我们的一周年</title>
-    <link href="https://yzzi.icu/2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/"/>
-    <id>https://yzzi.icu/2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/</id>
-    <published>2021-05-01T06:21:39.000Z</published>
-    <updated>2021-05-01T07:13:13.000Z</updated>
+    <link href="/2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/"/>
+    <url>/2021/05/01/%E3%80%8Elove%E3%80%8F%E6%88%91%E4%BB%AC%E7%9A%84%E4%B8%80%E5%91%A8%E5%B9%B4/</url>
     
     <content type="html"><![CDATA[<p>给最爱的人：</p><p>  不知不觉，一年就这样过去了。有你陪伴在身边的这一年，万物美好。你跟任何人都不一样，虽然我经常跟你说某个人好好看什么的，但并不代表他们可以取代你。比起一刻的心动，我更喜欢与你安安稳稳地爱下去。</p><p>  这一年来，我们有过冲突，也有不理解对方，质疑对方的时候。但我们都很好的化解了矛盾，让我们更加深入了解了对方的想法。时间最美的地方就是让你我变成我们。我们都是平凡的人，但至少我们对彼此都是世上最重要的人。我们一天一天接触对方，就越来越能看到对方的缺点，但同时我们却一天一天愈更深切地爱对方。从刚开始的不知道聊什么，到现在的卸下面具，无话不说。这也许就是时间的力量吧。</p><p>  这一年来，你的关怀，你的体贴，你的理解，都让我从此温暖在怀。可我却时常没有考虑你的感受，无理取闹。时常做错事情，却多次未改。时常要求你主动，却忘记爱本就应该是双向奔赴，不可能总是一个人主动付出。以前的我太过幼稚，令你受了不少委屈，不少苦。我生来破碎，感谢你用心缝补我，今后轮到我来偏爱你了。</p><p>  在刚开始的时候，我也曾怀疑过这份爱不会长久。但一天一天下来，我慢慢习惯有什么事就跟你分享，习惯打开QQ就先点开你的对话框，习惯假期在家跟你打电话。你在学校复习高考的这一个月，我也总会想起你。以前总会羡慕别人甜甜的恋爱，现在甜甜的恋爱终于轮到我了，我想与你『朝暮与年岁并往，与你一同行至天光』</p><p>  妈妈说，人最好不要错过两样东西：最后一班回家的车和一个深爱你的人。我想要和你拥有一个很长很长的未来，陪你走完这一生，彼此温暖，互不辜负。亲爱的慧慧，一周年快乐！执子之手，与子偕老。</p><p style="text-align:right">————柚子</p>]]></content>
     
     
+    <categories>
       
+      <category>恋爱记录</category>
       
-    <summary type="html">&lt;p&gt;给最爱的人：&lt;/p&gt;
-&lt;p&gt;  不知不觉，一年就这样过去了。有你陪伴在身边的这一年，万物美好。你跟任何人都不一样，虽然我经常跟你说某个人好好看什么的，但并不代表他们可以取代你。比起一刻的心动，我更喜欢与你安安稳稳地爱下去。&lt;/p&gt;
-&lt;p&gt;  这一年来，我们有过冲突，也有不理</summary>
-      
-    
-    
-    
-    <category term="恋爱记录" scheme="https://yzzi.icu/categories/%E6%81%8B%E7%88%B1%E8%AE%B0%E5%BD%95/"/>
+    </categories>
     
     
   </entry>
   
+  
+  
   <entry>
     <title>git记住用户名密码</title>
-    <link href="https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/"/>
-    <id>https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/</id>
-    <published>2021-05-01T06:07:26.000Z</published>
-    <updated>2021-05-01T06:09:10.000Z</updated>
+    <link href="/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/"/>
+    <url>/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/</url>
     
     <content type="html"><![CDATA[<p>hexo部署时用户名密码问题：</p><p>记住用户名密码，不用每次都输入用户名密码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure><p>清除用户名密码，防止用户名密码输入错误</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --system --unset credential.helper</span><br></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
       
+      <category>理论积累</category>
       
-    <summary type="html">&lt;p&gt;hexo部署时用户名密码问题：&lt;/p&gt;
-&lt;p&gt;记住用户名密码，不用每次都输入用户名密码&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/</summary>
+    </categories>
+    
+    
+    <tags>
       
-    
-    
-    
-    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
-    
-    
-    <category term="hexo" scheme="https://yzzi.icu/tags/hexo/"/>
-    
-    <category term="linux" scheme="https://yzzi.icu/tags/linux/"/>
+      <tag>hexo</tag>
+      
+      <tag>linux</tag>
+      
+    </tags>
     
   </entry>
   
+  
+  
   <entry>
     <title>QT DTK代码片段</title>
-    <link href="https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
-    <id>https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</id>
-    <published>2021-05-01T04:48:43.000Z</published>
-    <updated>2021-05-01T10:23:09.000Z</updated>
+    <link href="/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
+    <url>/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</url>
     
     <content type="html"><![CDATA[<h2 id="标题栏："><a class="header-anchor" href="#标题栏："></a>标题栏：</h2><h4 id="1、标题栏着色"><a class="header-anchor" href="#1、标题栏着色"></a>1、标题栏着色</h4><p><img src="https://p6-tt.byteimg.com/origin/pgc-image/aa526f7d5a8d4dbab8e60793a89c508e.png" class="lazyload" data-srcset="https://p6-tt.byteimg.com/origin/pgc-image/aa526f7d5a8d4dbab8e60793a89c508e.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="image.png"></p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">titlebar</span>()-&gt;<span class="built_in">setAttribute</span>(Qt::WA_StyledBackground,<span class="literal">true</span>);</span><br><span class="line"><span class="built_in">titlebar</span>()-&gt;<span class="built_in">setStyleSheet</span>(<span class="string">&quot;background-color: rgb(97,172,133)&quot;</span>);</span><br></pre></td></tr></table></figure><h4 id="2、隐藏标题栏下面分隔线"><a class="header-anchor" href="#2、隐藏标题栏下面分隔线"></a>2、隐藏标题栏下面分隔线</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">titlebar</span>()-&gt;<span class="built_in">setSeparatorVisible</span>(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure><h4 id="3、标题栏透明"><a class="header-anchor" href="#3、标题栏透明"></a>3、标题栏透明</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">titlebar-&gt;<span class="built_in">setBackgroundTransparent</span>(<span class="literal">true</span>);</span><br></pre></td></tr></table></figure><h4 id="4、标题栏相关文档"><a class="header-anchor" href="#4、标题栏相关文档"></a>4、标题栏相关文档</h4><p><a href="https://linuxdeepin.github.io/dtk/class_dtk_1_1_widget_1_1_d_titlebar.html">官方文档</a></p><h2 id="控件："><a class="header-anchor" href="#控件："></a>控件：</h2><h4 id="1、判断系统主题是浅色还是暗色"><a class="header-anchor" href="#1、判断系统主题是浅色还是暗色"></a>1、判断系统主题是浅色还是暗色</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">DGuiApplicationHelper *guiAppHelp = DGuiApplicationHelper::<span class="built_in">instance</span>();</span><br><span class="line"><span class="keyword">if</span> (guiAppHelp-&gt;<span class="built_in">themeType</span>() == DGuiApplicationHelper::ColorType::DarkType) &#123;  <span class="comment">//暗色主题</span></span><br><span class="line"></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;  <span class="comment">//浅色主题</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="2、判断某个颜色是浅色还是暗色"><a class="header-anchor" href="#2、判断某个颜色是浅色还是暗色"></a>2、判断某个颜色是浅色还是暗色</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(tcolor.<span class="built_in">red</span>()*<span class="number">0.299</span> + tcolor.<span class="built_in">green</span>()*<span class="number">0.578</span> + tcolor.<span class="built_in">blue</span>()*<span class="number">0.114</span> &gt;= <span class="number">192</span>)&#123; <span class="comment">//浅色</span></span><br><span class="line"></span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;  <span class="comment">//深色</span></span><br><span class="line"></span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><h4 id="3、QT控件阴影效果"><a class="header-anchor" href="#3、QT控件阴影效果"></a>3、QT控件阴影效果</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">setWindowFlags</span>(Qt::FramelessWindowHint);</span><br><span class="line">QGraphicsDropShadowEffect *effect = <span class="keyword">new</span> QGraphicsDropShadowEffect;</span><br><span class="line">effect-&gt;<span class="built_in">setBlurRadius</span>(<span class="number">8</span>);        <span class="comment">// 阴影圆角的大小</span></span><br><span class="line">effect-&gt;<span class="built_in">setColor</span>(Qt::gray);      <span class="comment">//阴影的颜色</span></span><br><span class="line">effect-&gt;<span class="built_in">setOffset</span>(<span class="number">5</span>,<span class="number">5</span>);          <span class="comment">//阴影的偏移量</span></span><br><span class="line">ui-&gt;centralWidget-&gt;<span class="built_in">setGraphicsEffect</span>(effect); <span class="comment">//给那个控件设置阴影，这里需要注意的是所有此控件的子控件，也都继承这个阴影。</span></span><br></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
       
+      <category>理论积累</category>
       
-    <summary type="html">&lt;h2 id=&quot;标题栏：&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#标题栏：&quot;&gt;&lt;/a&gt;标题栏：&lt;/h2&gt;
-&lt;h4 id=&quot;1、标题栏着色&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1、标题栏着色&quot;&gt;&lt;/a&gt;1、标题栏着色&lt;/h4&gt;</summary>
+    </categories>
+    
+    
+    <tags>
       
-    
-    
-    
-    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
-    
-    
-    <category term="qt" scheme="https://yzzi.icu/tags/qt/"/>
+      <tag>qt</tag>
+      
+    </tags>
     
   </entry>
   
-</feed>
+  
+  
+  
+</search>
