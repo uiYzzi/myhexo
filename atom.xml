@@ -6,7 +6,7 @@
   <link href="https://yzzi.icu/atom.xml" rel="self"/>
   
   <link href="https://yzzi.icu/"/>
-  <updated>2021-05-02T10:10:12.000Z</updated>
+  <updated>2021-05-22T16:51:51.614Z</updated>
   <id>https://yzzi.icu/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yzzi.icu/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt-widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/"/>
     <id>https://yzzi.icu/2021/05/02/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQt-widget%E5%85%B3%E9%97%AD%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8A%E6%94%BE%E5%86%85%E5%AD%98/</id>
     <published>2021-05-02T10:08:43.000Z</published>
-    <updated>2021-05-02T10:10:12.000Z</updated>
+    <updated>2021-05-22T16:51:51.614Z</updated>
     
     <content type="html"><![CDATA[<p>给widget设置Qt::WA_DeleteOnClose的属性就好啦</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp">Widget-&gt;<span class="hljs-built_in">setAttribute</span>(Qt::WA_DeleteOnClose);<br></code></pre></td></tr></table></figure>]]></content>
     
@@ -34,10 +34,12 @@
     
     
     
-    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
+    <category term="QT/C++" scheme="https://yzzi.icu/categories/QT-C/"/>
     
     
     <category term="qt" scheme="https://yzzi.icu/tags/qt/"/>
+    
+    <category term="c++" scheme="https://yzzi.icu/tags/c/"/>
     
   </entry>
   
@@ -70,7 +72,7 @@
     <link href="https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/"/>
     <id>https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8Fgit%E8%AE%B0%E4%BD%8F%E7%94%A8%E6%88%B7%E5%90%8D%E5%AF%86%E7%A0%81/</id>
     <published>2021-05-01T06:07:26.000Z</published>
-    <updated>2021-05-01T06:09:10.000Z</updated>
+    <updated>2021-05-22T16:50:53.226Z</updated>
     
     <content type="html"><![CDATA[<p>hexo部署时用户名密码问题：</p><p>记住用户名密码，不用每次都输入用户名密码</p><figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs llvm">git config --<span class="hljs-keyword">global</span> credential.helper <span class="hljs-keyword">store</span><br></code></pre></td></tr></table></figure><p>清除用户名密码，防止用户名密码输入错误</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs lua">git <span class="hljs-built_in">config</span> <span class="hljs-comment">--system --unset credential.helper</span><br></code></pre></td></tr></table></figure>]]></content>
     
@@ -84,7 +86,7 @@
     
     
     
-    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
+    <category term="GIT" scheme="https://yzzi.icu/categories/GIT/"/>
     
     
     <category term="hexo" scheme="https://yzzi.icu/tags/hexo/"/>
@@ -98,7 +100,7 @@
     <link href="https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
     <id>https://yzzi.icu/2021/05/01/%E3%80%8E%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF%E3%80%8FQT-DTK%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</id>
     <published>2021-05-01T04:48:43.000Z</published>
-    <updated>2021-05-01T10:23:09.000Z</updated>
+    <updated>2021-05-22T16:50:35.730Z</updated>
     
     <content type="html"><![CDATA[<h2 id="标题栏："><a class="header-anchor" href="#标题栏："></a>标题栏：</h2><h4 id="1、标题栏着色"><a class="header-anchor" href="#1、标题栏着色"></a>1、标题栏着色</h4><p><img src="https://p6-tt.byteimg.com/origin/pgc-image/aa526f7d5a8d4dbab8e60793a89c508e.png" alt="image.png"></p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-built_in">titlebar</span>()-&gt;<span class="hljs-built_in">setAttribute</span>(Qt::WA_StyledBackground,<span class="hljs-literal">true</span>);<br><span class="hljs-built_in">titlebar</span>()-&gt;<span class="hljs-built_in">setStyleSheet</span>(<span class="hljs-string">&quot;background-color: rgb(97,172,133)&quot;</span>);<br></code></pre></td></tr></table></figure><h4 id="2、隐藏标题栏下面分隔线"><a class="header-anchor" href="#2、隐藏标题栏下面分隔线"></a>2、隐藏标题栏下面分隔线</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-built_in">titlebar</span>()-&gt;<span class="hljs-built_in">setSeparatorVisible</span>(<span class="hljs-literal">false</span>);<br></code></pre></td></tr></table></figure><h4 id="3、标题栏透明"><a class="header-anchor" href="#3、标题栏透明"></a>3、标题栏透明</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp">titlebar-&gt;<span class="hljs-built_in">setBackgroundTransparent</span>(<span class="hljs-literal">true</span>);<br></code></pre></td></tr></table></figure><h4 id="4、标题栏相关文档"><a class="header-anchor" href="#4、标题栏相关文档"></a>4、标题栏相关文档</h4><p><a href="https://linuxdeepin.github.io/dtk/class_dtk_1_1_widget_1_1_d_titlebar.html">官方文档</a></p><h2 id="控件："><a class="header-anchor" href="#控件："></a>控件：</h2><h4 id="1、判断系统主题是浅色还是暗色"><a class="header-anchor" href="#1、判断系统主题是浅色还是暗色"></a>1、判断系统主题是浅色还是暗色</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cpp">DGuiApplicationHelper *guiAppHelp = DGuiApplicationHelper::<span class="hljs-built_in">instance</span>();<br><span class="hljs-keyword">if</span> (guiAppHelp-&gt;<span class="hljs-built_in">themeType</span>() == DGuiApplicationHelper::ColorType::DarkType) &#123;  <span class="hljs-comment">//暗色主题</span><br><br>&#125; <span class="hljs-keyword">else</span> &#123;  <span class="hljs-comment">//浅色主题</span><br><br>&#125;<br></code></pre></td></tr></table></figure><h4 id="2、判断某个颜色是浅色还是暗色"><a class="header-anchor" href="#2、判断某个颜色是浅色还是暗色"></a>2、判断某个颜色是浅色还是暗色</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span>(tcolor.<span class="hljs-built_in">red</span>()*<span class="hljs-number">0.299</span> + tcolor.<span class="hljs-built_in">green</span>()*<span class="hljs-number">0.578</span> + tcolor.<span class="hljs-built_in">blue</span>()*<span class="hljs-number">0.114</span> &gt;= <span class="hljs-number">192</span>)&#123; <span class="hljs-comment">//浅色</span><br><br>        &#125;<span class="hljs-keyword">else</span>&#123;  <span class="hljs-comment">//深色</span><br><br>        &#125;<br></code></pre></td></tr></table></figure><h4 id="3、QT控件阴影效果"><a class="header-anchor" href="#3、QT控件阴影效果"></a>3、QT控件阴影效果</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">this</span>-&gt;<span class="hljs-built_in">setWindowFlags</span>(Qt::FramelessWindowHint);<br>QGraphicsDropShadowEffect *effect = <span class="hljs-keyword">new</span> QGraphicsDropShadowEffect;<br>effect-&gt;<span class="hljs-built_in">setBlurRadius</span>(<span class="hljs-number">8</span>);        <span class="hljs-comment">// 阴影圆角的大小</span><br>effect-&gt;<span class="hljs-built_in">setColor</span>(Qt::gray);      <span class="hljs-comment">//阴影的颜色</span><br>effect-&gt;<span class="hljs-built_in">setOffset</span>(<span class="hljs-number">5</span>,<span class="hljs-number">5</span>);          <span class="hljs-comment">//阴影的偏移量</span><br>ui-&gt;centralWidget-&gt;<span class="hljs-built_in">setGraphicsEffect</span>(effect); <span class="hljs-comment">//给那个控件设置阴影，这里需要注意的是所有此控件的子控件，也都继承这个阴影。</span><br></code></pre></td></tr></table></figure>]]></content>
     
@@ -111,10 +113,14 @@
     
     
     
-    <category term="理论积累" scheme="https://yzzi.icu/categories/%E7%90%86%E8%AE%BA%E7%A7%AF%E7%B4%AF/"/>
+    <category term="QT/C++" scheme="https://yzzi.icu/categories/QT-C/"/>
     
     
     <category term="qt" scheme="https://yzzi.icu/tags/qt/"/>
+    
+    <category term="dtk" scheme="https://yzzi.icu/tags/dtk/"/>
+    
+    <category term="c++" scheme="https://yzzi.icu/tags/c/"/>
     
   </entry>
   

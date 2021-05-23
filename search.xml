@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 理论积累 </category>
+          <category> QT/C++ </category>
           
       </categories>
       
@@ -21,6 +21,8 @@
         <tags>
             
             <tag> qt </tag>
+            
+            <tag> c++ </tag>
             
         </tags>
       
@@ -57,7 +59,7 @@
       
       <categories>
           
-          <category> 理论积累 </category>
+          <category> GIT </category>
           
       </categories>
       
@@ -84,7 +86,7 @@
       
       <categories>
           
-          <category> 理论积累 </category>
+          <category> QT/C++ </category>
           
       </categories>
       
@@ -92,6 +94,10 @@
         <tags>
             
             <tag> qt </tag>
+            
+            <tag> dtk </tag>
+            
+            <tag> c++ </tag>
             
         </tags>
       
